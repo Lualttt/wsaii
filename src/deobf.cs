@@ -1,0 +1,3 @@
+global using SteamManager = MonoBehaviourPublicObInUIgaStCSBoStcuCSUnique;
+global using GameUI = MonoBehaviourPublicGaroloGaObInCacachGaUnique;
+global using PlayerList = MonoBehaviourPublicGapaTrconaGaDi2UIObUnique;
