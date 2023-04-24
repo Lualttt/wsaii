@@ -1,5 +1,3 @@
-change this line in `crabgame_mod_template.csproj` to your bepinex directory path
+# What Server Am I In
 
-```xml
-<BepInExDirectory>C:\Program Files\Steam\steamapps\common\Crab Game\BepInEx</BepInExDirectory>
-```
+simple quality of life mod to see "What Server Am I In".
