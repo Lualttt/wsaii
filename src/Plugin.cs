@@ -60,7 +60,12 @@ namespace wsaii
         [HarmonyFinalizer]
         public static void UpdateList(PlayerList __instance)
         {
-            ServerNameText.SetText(SteamworksNative.SteamMatchmaking.GetLobbyData(SteamManager.Instance.currentLobby, "LobbyName"));
+            if (ServerNameText) {
+                ServerNameText.SetText(SteamworksNative.SteamMatchmaking.GetLobbyData(SteamManager.Instance.currentLobby, "LobbyName"));
+            } else
+            {
+                Start(GameUI.Instance);
+            }
         }
     }
 }
